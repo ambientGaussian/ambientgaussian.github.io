@@ -64,6 +64,9 @@ img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto;   /* Maintain the aspect ratio */
+
 }
 
 /*====================================================*/
@@ -81,6 +84,9 @@ img.center {
 .mySlides {
     display: none;
 }
+.myTeasers {
+  display: none;
+}
 .mydescription {
   display: flex;
   justify-content: space-between;
@@ -90,7 +96,7 @@ img.center {
   margin: 10px auto 0; /* Center horizontally */
 
 }
-.left-caption, .right-caption {
+.left-caption, .middle-caption, .right-caption {
   flex: 1;
   display: flex;
   justify-content: center; /* Center horizontally within the space */
@@ -101,6 +107,9 @@ img.center {
 }
 .left-caption {
   text-align: left;
+}
+.middle-caption{
+  text-align: center;
 }
 .right-caption {
   text-align: right;
