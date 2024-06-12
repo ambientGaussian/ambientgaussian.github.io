@@ -81,8 +81,11 @@ img.center {
   margin: auto;
 }
 
-.mySlides {
-    display: none;
+.mySlidesA {
+  display: none;
+}
+.mySlidesB {
+  display: none;
 }
 .myTeasers {
   display: none;
